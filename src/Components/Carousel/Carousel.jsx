@@ -54,6 +54,8 @@ export const Carousel = () => {
               name="carousel"
               aria-hidden="true"
               hidden="true"
+              checked="checked"
+
             />
             <div
               className="carousel-item absolute opacity-0 height-50vh"
@@ -65,13 +67,13 @@ export const Carousel = () => {
             </div>
             <label
               for="carousel-1"
-              className="prev control-2 control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto"
+              className="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto"
             >
               <img src="./image/prev.png" alt="" />
             </label>
             <label
               for="carousel-3"
-              className="next control-2 control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto"
+              className="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto"
             >
               <img src="./image/next.png" 
               alt="" />
@@ -85,6 +87,8 @@ export const Carousel = () => {
               name="carousel"
               aria-hidden="true"
               hidden="true"
+              checked="checked"
+
             />
             <div
               className="carousel-item absolute opacity-0 height-50vh"
