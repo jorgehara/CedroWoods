@@ -8,3 +8,6 @@
     object-fit: contain;
 }
 
+button:hover{
+    background-color: orange;
+}

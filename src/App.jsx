@@ -1,8 +1,7 @@
 import "./App.css";
-import { Carousel } from "./Components/Carousel/Carousel";
+import { Footer } from "./Components/Footer/Footer";
 import { Galery } from "./Components/Galeria/Galery";
 import { Header } from "./Components/Header/Header";
-import { MyPage } from "./Components/MyPage/MyPage";
 import { Projects } from "./Components/Projects/Projects";
 export default function App() {
   return (
@@ -10,9 +9,7 @@ export default function App() {
       <Header />
       <Galery />
       <Projects />
-      <hr />
-      <br />
-      <br />
+      <Footer/>
     </>
   );
 }
