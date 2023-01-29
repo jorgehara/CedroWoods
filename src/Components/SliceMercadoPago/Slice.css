@@ -1,0 +1,9 @@
+.buttonSlice{
+    background-color: #009ee3;
+    color: #fff;
+    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif,sans-serif;
+}
+.buttonSlice:hover{
+    background-color: #007eb5;
+    color: #fff;
+}
