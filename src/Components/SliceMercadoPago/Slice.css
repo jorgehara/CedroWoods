@@ -1,4 +1,6 @@
 .buttonSlice{
+    width: 30%;
+    height: 200%;
     background-color: #009ee3;
     color: #fff;
     font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif,sans-serif;
@@ -6,4 +8,12 @@
 .buttonSlice:hover{
     background-color: #007eb5;
     color: #fff;
+}
+.imgMerPago{
+    width: 30%;
+    height: 30%;
+}
+.imgAhora12{
+    width: 30%;
+    height: 30%;
 }

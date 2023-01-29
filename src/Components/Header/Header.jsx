@@ -22,6 +22,7 @@ export const Header = () => {
             target="_blank"
           >
             <img
+            className="imgHeader"
               src="/image/CEDROwoods/whatsapp-fill (3).svg"
               alt="Imagen ilustrativa de muebles entregados"
             />

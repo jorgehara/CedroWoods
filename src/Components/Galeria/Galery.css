@@ -1,10 +1,10 @@
-section{
+.sectionGalery{
     display: flex;
     width: 900px;
     height: 430px;
 }
 
-section img {
+.imgGalery {
     border: 1px solid rgba(0, 0, 0, 0.325);
     width: 0px;
     flex-grow: 1;
@@ -13,7 +13,7 @@ section img {
     transition: .5s ease;
 }
 
-section img:hover {
+.imgGalery:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
