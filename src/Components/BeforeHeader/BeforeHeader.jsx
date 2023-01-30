@@ -4,7 +4,7 @@ import './BeforeHeader.css'
 export const BeforeHeader = () => {
   return (
     <>
-    <section className='bg-orange-100'>
+    <section className='bg-orange-100 opacity-0.5'>
        <div className="m-2 flex gap-1 mb-3">
        <button className="button-container uppercase">
             Aceptamos

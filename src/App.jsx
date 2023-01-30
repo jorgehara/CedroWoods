@@ -7,11 +7,13 @@ import { Projects } from "./Components/Projects/Projects";
 export default function App() {
   return (
     <>
+    <div className="imagenBack">
     <BeforeHeader/>
       <Header />
       <Galery />
       <Projects />
       <Footer/>
+      </div>
     </>
   );
 }

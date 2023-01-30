@@ -1,18 +1,13 @@
-.buttonFooter{
-    width: 10%;
-    background-color: rgb(255, 166, 0, 0.4);
-    color:rgb(100, 116, 139);
-}
 
-.buttonFooter:hover{
-    background-color: rgba(255, 166, 0, 0.75);
-    color:rgb(100, 116, 139)
-}
 .aFooter{
     color:rgb(80, 90, 109);
-    text-decoration: none;
+    border: 1px solid rgba(255, 166, 0, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(255, 166, 0, 0.4);
+    margin-bottom: 2%;
 }
 .aFooter:hover{
-    color:rgb(80, 116, 139);
-    text-decoration: none;
+    color:rgb(80, 116, 139, 1.5);
+    background-color: rgba(255, 166, 0, 0.5)
 }

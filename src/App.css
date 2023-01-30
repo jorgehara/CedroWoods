@@ -1,4 +1,12 @@
 
+
+.imagenBack{
+  background-image:  url("/image/CEDROwoods/imgVerde2.jpg");
+  
+}
+
+
+
 * {
   box-sizing: border-box;
 }

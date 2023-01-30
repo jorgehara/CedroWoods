@@ -15,7 +15,7 @@ export const Header = () => {
       <div className="flex flex-col items-center justify-start p-1">
         <div className="flex">
           <h2 className="bg-orange-600 bg-gradient-to-tr font-bold leading-tight mb-4 md:mb-2 md:text-4xl text-white p-2 rounded-md">
-            Contactanos al 3794-123456
+            Contactanos al 3794-350479
           </h2>
           <a
             href="https://wa.me/543794350479?Somos%20CEDRO%20Woods%20realizamos%20muebles%20con%20diseños%20personalizados%20y%20a%20medida.%20Esperamos%20su%20consulta!!%20:D"
