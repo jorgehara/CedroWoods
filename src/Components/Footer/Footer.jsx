@@ -23,7 +23,7 @@ export const Footer = () => {
               
               <a className="aFooter" href="https://wa.me/543794350479?Somos%20CEDRO%20Woods%20realizamos%20muebles%20con%20diseños%20personalizados%20y%20a%20medida.%20Esperamos%20su%20consulta!!%20:D"
             target="_blank">
-                Contactanos
+                Contacto
               </a>
                 <a className="aFooter" href="http://www.instagram.com/cedrowoods/" target="_blank">
                   Siguenos

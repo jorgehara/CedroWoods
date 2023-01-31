@@ -6,11 +6,11 @@ export const BeforeHeader = () => {
     <>
     <section className='bg-orange-100 opacity-0.5'>
        <div className="m-2 flex gap-1 mb-3">
-       <button className="button-container uppercase">
+       <div className="button-container uppercase">
             Aceptamos
-          </button>
+          </div>
           <img
-            className="img-container "
+            className="img-container"
             src="/image/CEDROwoods/MercadoPago.png"
             alt="Imagen logo MercadoPago"
           />
@@ -32,12 +32,7 @@ export const BeforeHeader = () => {
             alt="Imagen logo Camioncito"
           />
         </div>
-        
-
     </section>
-    
-    
-    
     </>
   )
 }
