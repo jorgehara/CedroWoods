@@ -4,34 +4,36 @@ import './BeforeHeader.css'
 export const BeforeHeader = () => {
   return (
     <>
-    <section className='bg-orange-100 opacity-0.5'>
-       <div className="m-2 flex gap-1 mb-3">
-       <div className="button-container uppercase">
-            Aceptamos
-          </div>
-          <img
+    <section className='bg-orange-100 content-center opacity-0.5 '>
+       <div className="m-1 flex  container content-center justify-around justify-items-center mb-1">
+           <h3
+            className='flex mt-4 text-white text-2xl justify-center font-bold button-container '
+           >
+           Mercado Pago
+            </h3> 
+         {/* <img
             className="img-container"
             src="/image/CEDROwoods/MercadoPago.png"
             alt="Imagen logo MercadoPago"
-          />
-          <span className='flex flex-col mt-4 text-gray-900 text-2xl font-mono font-extrabold '>Entregas dentro de las 48 hs.</span>
-          <img
+          /> */}
+          <h3 className='flex mt-4 text-gray-900 text-2xl font-mono font-extrabold '>Entregas en 48 hs - Envios en Corrientes, Capital</h3>
+          {/* <img
               className="LogoAhora12 "
               src="/image/CEDROwoods/logo-ahora12.jpg"
               alt="Imagen logo Ahora 3,6,12 y 18"
-            />
-            <img
-              className="LogoCuotas "
-              src="/image/CEDROwoods/logo-plancuotas.jpg"
-              alt="Imagen logo Ahora 3,6,12 y 18"
-            />
-            <span className='flex flex-col mt-4 text-gray-900 text-2xl font-mono font-extrabold '>Envios dentro de Corrientes, Capital.</span>
+            /> */}
+            {/* <h3 className='flex mt-4 text-gray-900 text-2xl font-mono font-extrabold '>Envios en Corrientes, Capital.</h3> */}
             <img
              className="truckFill "
             src="/image/CEDROwoods/truck-fill.svg"
             alt="Imagen logo Camioncito"
           />
-        </div>
+            <img
+              className="LogoCuotas "
+              src="/image/CEDROwoods/logo-plancuotas.jpg"
+              alt="Imagen logo Ahora 3,6,12 y 18"
+            />
+         </div>
     </section>
     </>
   )

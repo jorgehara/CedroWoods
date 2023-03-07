@@ -10,6 +10,8 @@ const projects = [
     title: "Muebles de cocina",
     description:
       "Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
+    details:
+    "DETAILS Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
     url: "6.jpeg",
     className: "imgCard",
   },
@@ -18,6 +20,8 @@ const projects = [
     title: "Muebles de sala",
     description:
       "Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
+      details:
+      "DETAILS Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
     url: "7.jpeg",
     className: "imgCard",
   },
@@ -26,6 +30,8 @@ const projects = [
     title: "Muebles de sala",
     description:
       "Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
+      details:
+      "DETAILS Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
     url: "9.jpeg",
     className: "imgCard",
   },
@@ -33,6 +39,8 @@ const projects = [
     id: 5,
     title: "Muebles de cocina",
     description: "Muebles de cocina personalizados a medida",
+    details:
+    "DETAILS Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
     url: "10.jpeg",
     className: "imgCard",
   },
@@ -40,6 +48,8 @@ const projects = [
     id: 6,
     title: "Muebles de sala",
     description: "Muebles de sala personalizados a medida",
+    details:
+    "DETAILS Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
     url: "11.jpeg",
     className: "imgCard",
   },
@@ -47,6 +57,8 @@ const projects = [
     id: 7,
     title: "Muebles de cocina",
     description: "Muebles de cocina personalizados a medida",
+    details:
+    "DETAILS Muebles de cocina personalizados a medida Muebles de cocina personalizados a medidaMuebles de cocina personalizados a medida",
     url: "12.jpeg",
     className: "imgCard",
   },
@@ -67,7 +79,6 @@ export const Projects = () => {
         </div>
         <div className="flex justify-center p-1 rounded-sm ">
           <h3 className="bg-orange-400 bg-gradient-to-tr font-semibold  md:text-3xl  text-white text-center p-2 ">
-            {" "}
             Encontralos aquí
           </h3>
         </div>
@@ -78,6 +89,7 @@ export const Projects = () => {
               image={`${imagePath}${project.url}`}
               title={project.title}
               description={project.description}
+              details={project.details}
               onClick={() => setSelectedProject(project.id)}
               selected={project.id === selectedProject}
               className={project.className}

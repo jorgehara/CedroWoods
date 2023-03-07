@@ -1,5 +1,6 @@
 import "./App.css";
 import { BeforeHeader } from "./Components/BeforeHeader/BeforeHeader";
+import { CardsPrueba } from "./Components/Cards/CardsPrueba";
 import { Footer } from "./Components/Footer/Footer";
 import { Galery } from "./Components/Galeria/Galery";
 import { Header } from "./Components/Header/Header";
@@ -13,6 +14,7 @@ export default function App() {
       <Galery />
       <Projects />
       <Footer/>
+      <CardsPrueba/>
       </div>
     </>
   );
