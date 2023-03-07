@@ -5,7 +5,7 @@ export const BeforeHeader = () => {
   return (
     <>
     <section className='bg-orange-100 content-center opacity-0.5 '>
-       <div className="m-1 flex  container justify-center gap-3 justify-items-center mb-1">
+       <div className="m-1 flex pl-40 container justify-center gap-3 justify-items-center mb-1">
            <h3
             className='flex mt-4 text-white text-2xl justify-center font-bold button-container '
            >
